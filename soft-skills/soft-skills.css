@@ -1,0 +1,43 @@
+body {
+    /* background by SVGBackgrounds.com */
+    background-color: #0B0B0B;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23141414' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%231c1c1c' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23252525' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%232d2d2d' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23363636' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+img {
+    max-height: 50vh;
+    min-height: 20vh;
+}
+
+main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-right: 5rem;
+}
+
+.buttons {
+    cursor: pointer;
+    border-width: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #000000;
+    text-decoration: none;
+}
+.buttons:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+}
